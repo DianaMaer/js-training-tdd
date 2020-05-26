@@ -7,6 +7,13 @@
  */
 
 // Your code:
+function sentence(array){
+    return array.join(' ');
+    // let allElements='';
+    // for (i = 0; i < array.length; i++){
+    //     allElements = array[i]
+   
+}
 
 //* Begin of tests
 const assert = require('assert');
