@@ -8,7 +8,11 @@
  */
 
 // Your code:
-
+function capitalize(word){
+    let firstLetter=word.charAt(0).toUpperCase();
+    let secondLetter=word.slice(1).toLowerCase();
+    return firstLetter.concat(secondLetter);
+}
 //* Begin of tests
 const assert = require('assert');
 
@@ -17,4 +21,4 @@ assert.strictEqual(capitalize('str'), 'Str');
 assert.strictEqual(capitalize('qsdqsdqsd'), 'Qsdqsdqsd');
 assert.strictEqual(capitalize('STR'), 'Str');
 assert.strictEqual(capitalize('zapZAP'), 'Zapzap');
-// End of tests */
+//End of tests */
